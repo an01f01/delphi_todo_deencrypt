@@ -1,0 +1,119 @@
+inherited FrmMain: TFrmMain
+  Caption = 'TODO'
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  inherited RctContent: TRectangle
+    inherited RctHeader: TRectangle
+      inherited BtnBack: TSpeedButton
+        Margins.Left = 4.000000000000000000
+        Margins.Top = 4.000000000000000000
+        Margins.Right = 4.000000000000000000
+        Margins.Bottom = 4.000000000000000000
+        Visible = False
+        inherited SvgBackArrow: TSkSvg
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Size.Width = 33.000000000000000000
+          Size.Height = 26.000000000000000000
+        end
+      end
+      inherited SkLabel1: TSkLabel
+        Words = <
+          item
+            Text = 'Todo X Encrypt'
+          end>
+      end
+    end
+    inherited SbxContent: TScrollBox
+      Viewport.Width = 360.000000000000000000
+      Viewport.Height = 554.000000000000000000
+      object RctSave: TRectangle
+        Align = Horizontal
+        Anchors = [akLeft, akTop, akRight]
+        Fill.Color = claLightgreen
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 368.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        Stroke.Cap = Round
+        XRadius = 8.000000000000000000
+        YRadius = 8.000000000000000000
+        object BtnSave: TSpeedButton
+          Align = Client
+          Size.Width = 320.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          OnClick = BtnSaveClick
+          object SkLabel2: TSkLabel
+            Align = Client
+            Size.Width = 320.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Size, FontColor]
+            TextSettings.Font.Weight = Semibold
+            TextSettings.HorzAlign = Center
+            Words = <
+              item
+                Text = 'SAVE'
+              end>
+          end
+        end
+      end
+      object RctLoad: TRectangle
+        Align = Horizontal
+        Anchors = [akLeft, akTop, akRight]
+        Fill.Color = claLightgreen
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 448.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        Stroke.Cap = Round
+        XRadius = 8.000000000000000000
+        YRadius = 8.000000000000000000
+        object BtnLoad: TSpeedButton
+          Align = Client
+          Size.Width = 320.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          OnClick = BtnLoadClick
+          object SkLabel3: TSkLabel
+            Align = Client
+            Size.Width = 320.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Size, FontColor]
+            TextSettings.Font.Weight = Semibold
+            TextSettings.HorzAlign = Center
+            Words = <
+              item
+                Text = 'LOAD'
+              end>
+          end
+        end
+      end
+      object Memo1: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        Align = Horizontal
+        Anchors = [akLeft, akTop, akRight]
+        Position.Y = 8.000000000000000000
+        Size.Width = 360.000000000000000000
+        Size.Height = 337.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Viewport.Width = 356.000000000000000000
+        Viewport.Height = 333.000000000000000000
+      end
+    end
+  end
+end

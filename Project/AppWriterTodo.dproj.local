@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/05/05 13:30:58.000.738,=C:\Users\anegri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/06 17:32:02.000.496,=C:\Users\anegri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/06 17:35:23.000.662,C:\Users\anegri\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\dev\medium\appwriter-todo\delphi\Src\Base\Base.pas</Transaction>
+    <Transaction>2023/06/06 17:35:23.000.662,C:\Users\anegri\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\dev\medium\appwriter-todo\delphi\Src\Base\Base.fmx</Transaction>
+    <Transaction>2023/06/06 17:35:52.000.339,C:\Users\anegri\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\dev\medium\appwriter-todo\delphi\Project\AppWriterTodo.dproj</Transaction>
+    <Transaction>2023/06/09 09:06:48.000.068,=C:\dev\medium\appwriter-todo\delphi\Project\Unit1.pas</Transaction>
+    <Transaction>2023/06/09 09:07:25.000.018,C:\dev\medium\appwriter-todo\delphi\Src\Utils\Todo.Utils.Settings.pas=C:\dev\medium\appwriter-todo\delphi\Project\Unit1.pas</Transaction>
+    <Transaction>2023/06/09 12:27:33.000.560,=C:\dev\medium\appwriter-todo\delphi\Project\Unit1.pas</Transaction>
+    <Transaction>2023/06/09 12:27:58.000.595,C:\dev\medium\appwriter-todo\delphi\Src\Todo.Form.Main.pas=C:\dev\medium\appwriter-todo\delphi\Project\Unit1.pas</Transaction>
+    <Transaction>2023/06/09 12:27:58.000.595,C:\dev\medium\appwriter-todo\delphi\Src\Todo.Form.Main.fmx=C:\dev\medium\appwriter-todo\delphi\Project\Unit1.fmx</Transaction>
+    <Transaction>2023/06/12 15:42:35.000.057,=C:\dev\medium\appwriter-todo\delphi\Src\Model\Todo.Model.Todo.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="" Android=""/>
+		<Pmacos iOSDevice64=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

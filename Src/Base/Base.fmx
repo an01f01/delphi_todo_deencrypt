@@ -1,0 +1,73 @@
+object FrmBase: TFrmBase
+  Left = 0
+  Top = 0
+  Caption = 'Base'
+  ClientHeight = 604
+  ClientWidth = 360
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object RctContent: TRectangle
+    Align = Client
+    Fill.Color = claWhitesmoke
+    Size.Width = 360.000000000000000000
+    Size.Height = 604.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object RctHeader: TRectangle
+      Align = Top
+      Fill.Color = claLightgreen
+      Size.Width = 360.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object BtnBack: TSpeedButton
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        object SvgBackArrow: TSkSvg
+          Align = Client
+          Size.Width = 41.000000000000000000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          Svg.OverrideColor = claBlack
+          Svg.Source = 
+            '<svg xmlns="http://www.w3.org/2000/svg" width="7.571" height="15' +
+            '.439" viewBox="0 0 7.571 15.439">'#13#10'  <path id="Path_422" data-na' +
+            'me="Path 422" d="M272.806,1385.472l7.171,5.767,7.171-5.767" tran' +
+            'sform="translate(1392.362 -272.258) rotate(90)" fill="none" stro' +
+            'ke="#009084" stroke-width="1.75"/>'#13#10'</svg>'
+        end
+      end
+      object SkLabel1: TSkLabel
+        Align = Horizontal
+        Margins.Left = 60.000000000000000000
+        Margins.Right = 60.000000000000000000
+        Position.X = 60.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 240.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style, FontColor]
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.HorzAlign = Center
+        Words = <
+          item
+            Text = 'Title'
+          end>
+      end
+    end
+    object SbxContent: TScrollBox
+      Align = Client
+      Size.Width = 360.000000000000000000
+      Size.Height = 554.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Viewport.Width = 360.000000000000000000
+      Viewport.Height = 554.000000000000000000
+    end
+  end
+end
